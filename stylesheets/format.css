@@ -175,6 +175,33 @@ figure img {
 
 
 @media screen and (max-width: 599px) {
+    .title {
+        flex-flow: column;
+    }
+    
+    .title img {
+        width: 50%;
+    }
+    
+    .title h1 {
+        width: 90%;
+        font-size: 20px;
+        border-left: none;
+        border-top: 2px solid var(--line_color_01);
+    }
+    
+    h2 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 16px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+
     .flex_contents{
         width: 100%;
     }
